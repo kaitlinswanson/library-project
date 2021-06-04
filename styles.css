@@ -1,37 +1,35 @@
 
+/*background*/
+
+#popUp {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 #form {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid navy;
-    z-index: 10;
+    
+    width: 500px;
+    height:300px;
     background-color: white;
-    width: 300px;
-    max-width: 60%;
+    border-radius: 5px;
+    text-align: center; 
+    padding: 20px;
 }
 
-
-.formHeader { 
-    padding: 8px 10px; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid navy;
-
-}
-
-.formHeader .title { 
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-#close-button {
-cursor: pointer; 
-border: none;
-outline: none; 
-background: none; 
-font-size: 1.25rem;
-font
+#submitButton { 
+    background-color: blue;
+    text-align: center;
+    border-radius: 8px;
+    
 }

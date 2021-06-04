@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html>
-
+<!Doctype html>
 <head>
-  <meta charset="utf-8">
-  <title>My Library</title>
-  <link href="styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Library</title>
 </head>
 <body>
-  <div id = 'buttonContainer'> </div>
-    <button data-open-target="#newBookButton"> New Book</button>
-    
-<div>
-    <div class="popUp" id="popUp"> 
-        <form id='form' action='/script.js'>
+<h1>My Library</h1>
+    <div id='newButton-Container'>
+        <button id='button'> Add New Book</button>
+    </div>
+     <div id="popUp">
+        <form id='form' action='/Script.js'>
            <div class="formHeader">
                <div class="title">Add A New Book</div>
                 <button data-close-button class="close-button">&times;</button>
@@ -33,18 +31,12 @@
                 <label for="read">Read:</label>
                 <input type="checkbox" name="read" id="read" value="yes">
             </div>
-            <div>
-                <button type='submit' form='form' id="submitButton">Submit</button>
+            <button type='submit' form='form' id='submitButton'>Add</button>
         </form>
     </div>
+    <div id='Library-container'></div>
 
-
-    </div>
-</div>
-<div id="overlay"></div>
-
-
-  <script src="script.js"></script>
+    <script src="Script.js"></script>
 </body>
 
 </html>
