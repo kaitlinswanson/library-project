@@ -1,6 +1,16 @@
-let myLibrary = [];
-let newBook;
+// identify constants and add event listeners to buttons. 
+const pupUp = document.getElementById('#popUp');
 
+const addNewBook = document.querySelectorAll('[data-open-target]');
+addNewBook.addEventListener('click', () => popUp.style.display = 'block');
+
+const closeButton = document.querySelectorAll('[data-close-button]');
+
+
+const submitButton = document.getElementById('#submitButton'); 
+submitButton.addEventListener('click', addNewBook);
+
+// constructor for making future "book" objects. 
 function Book(title, author, pages, read) {
     this.title = title; 
     this.author = author; 
@@ -9,13 +19,14 @@ function Book(title, author, pages, read) {
     this.info = title + ' by ' + author + ", " + pages + ' pages, ' + read 
     }
 
-
+//create a function to add new book objects
     function addNewBook() { 
     newBook = new Book(title, author, pages,read); 
     myLibrary.push(newBook);
     }
 
-
+    let myLibrary = [];
+    let newBook;
     //Write a function that loops through the array and displays each book on the page. 
     function displayEach() { 
         for (let i=0; i<myLibrary.length; i++){

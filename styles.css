@@ -1,0 +1,37 @@
+
+
+#form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid navy;
+    z-index: 10;
+    background-color: white;
+    width: 300px;
+    max-width: 60%;
+}
+
+
+.formHeader { 
+    padding: 8px 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid navy;
+
+}
+
+.formHeader .title { 
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#close-button {
+cursor: pointer; 
+border: none;
+outline: none; 
+background: none; 
+font-size: 1.25rem;
+font
+}
