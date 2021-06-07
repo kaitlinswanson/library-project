@@ -1,5 +1,20 @@
 
 /*background*/
+body { 
+    background-color: #FFE3B3;
+}
+h1 { 
+    background-color: #FFE3B3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #006BBB;
+    
+}
+
+#newButton-Container { 
+    background-color: #FFE3B3;
+    text-align: center;
+}
 
 #popUp {
     display: none;
@@ -10,26 +25,63 @@
     top: 0; 
     justify-content: center;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
+#Library-container {
+    background-color: #006BBB;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px; 
+    padding: 10px;
 
+}
 
+.readCheck { 
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
 
+#removeButton { 
+    border-radius: 5px;
+    background-color: #F0C479;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#button { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    background-color: #30A0E0;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    text-align: center;
+
+}
 
 #form {
-    
-    width: 500px;
-    height:300px;
-    background-color: white;
+    width: 400px;
+    height:200px;
+    background-color: #FFC872;
     border-radius: 5px;
-    text-align: center; 
-    padding: 20px;
+    text-align: left; 
+    padding: 40px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #submitButton { 
-    background-color: blue;
+    background-color: #30A0E0;
+    color: white;
     text-align: center;
     border-radius: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+#spacing { 
+    height: 20px;
 }
